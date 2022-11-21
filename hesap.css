@@ -27,7 +27,7 @@ form input {
     font-size: 3rem;
     padding: 1rem;
     color: rgb(248, 240, 240);
-    background-image: url(space.jpg);
+    background-image: url(BG.jpg);
     text-align: right;
     pointer-events: none;
 
@@ -52,10 +52,10 @@ button{
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-    
-
 }
-
+button:hover{
+    background-color: rgb(16, 133, 187);
+}
 .btn-yellow{
     background: yellow;
     color:black;
@@ -74,3 +74,15 @@ button{
     background: red;
     color:black;
 } 
+
+#inp{
+    background: rgb(30, 219, 140);
+    width: 65px;
+    overflow: hidden;
+    border-radius: 15px;
+    pointer-events: none;
+    text-align: center;
+}
+#inp:hover{
+    background-color: blue;
+}
