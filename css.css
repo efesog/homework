@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: aqua;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+#sos {
+    background-color: rgb(17, 24, 9);
+    color: rgb(255, 255, 255);
+    height:55px;
+    width: 100;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+}
+
+#font{
+    float: left;
+    letter-spacing: 2px;
+}
+
+
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#sos>i{
+    margin-right: 15px;
+}
+
+#sos>i:hover{
+    opacity:0.8;
+}
